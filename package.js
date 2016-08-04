@@ -2,7 +2,7 @@ Package.describe({
     name: 'elledienne:yaml',
     version: '1.0.3',
     summary: 'Integrate Yaml import (.yml) with Webpack',
-    git: 'https://github.com/thereactivestack/meteor-webpack.git',
+    git: 'https://github.com/elledienne/meteor-webpack-yaml',
     documentation: 'README.md'
 });
 
