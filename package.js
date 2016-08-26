@@ -1,8 +1,8 @@
 Package.describe({
-    name: 'elledienne:yaml',
-    version: '1.0.3',
-    summary: 'Integrate Yaml import (.yml) with Webpack',
-    git: 'https://github.com/elledienne/meteor-webpack-yaml',
+    name: 'elledienne:gently',
+    version: '0.0.1',
+    summary: 'Add configuration for global.GENTLY = false',
+    git: 'https://github.com/elledienne/meteor-webpack-gently',
     documentation: 'README.md'
 });
 
