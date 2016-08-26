@@ -1,16 +1,11 @@
-var weight = 500;
-
-function dependencies(settings) {
-  return {
-    devDependencies: {
-      'yaml-loader' : '^0.4.0'
-    }
-  };
-}
+var weight = 900;
 
 function config() {
+  var plugins = [
+    new webpack.DefinePlugin({ "global.GENTLY": false })
+  ];
+
   return {
-    loaders: [{ test: /\.yaml$/, loader: 'yaml', include: path.resolve('data') }],
-    extensions: ['.yaml']
+    plugins: plugins
   };
 }
